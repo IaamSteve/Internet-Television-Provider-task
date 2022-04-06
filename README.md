@@ -1,1 +1,1 @@
-# Internet-Television-Provider-task
+# Internet és Televísió szolgáltatós feladat
