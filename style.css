@@ -1,0 +1,40 @@
+body{
+    background-color: darkgrey;
+    color: black;
+}
+
+.container{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rel{
+    position: relative;
+}
+
+img.logo{
+    width: 100px;
+    background-color: grey;
+}
+
+@keyframes{
+    
+}
+ul.navbar_felsorolas{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.navbar_li{
+    float: left;
+}
+
+a.navbar_a{
+    display: block;
+    padding: 8px;
+    background-color: grey;
+    color: black;
+}
+
