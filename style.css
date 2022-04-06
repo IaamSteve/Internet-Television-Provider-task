@@ -5,7 +5,7 @@ body{
 
 .container{
     list-style-type: none;
-    margin: 0;
+    margin: 0%;
     padding: 0;
 }
 
@@ -14,8 +14,11 @@ body{
 }
 
 img.logo{
-    width: 100px;
+    width: 20%;
+    height: 40%;
     background-color: grey;
+    border-radius: 5%;
+    float: left;
 }
 
 @keyframes{
@@ -25,16 +28,31 @@ ul.navbar_felsorolas{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 li.navbar_li{
-    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin-left:10%;
+    margin-right: 10%;
 }
 
 a.navbar_a{
     display: block;
-    padding: 8px;
+    padding: 10px;
+    margin: 0%;
     background-color: grey;
     color: black;
+}
+
+a.navbar_a:hover{
+    background-color: silver;
 }
 
