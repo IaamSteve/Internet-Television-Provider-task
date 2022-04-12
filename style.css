@@ -7,12 +7,16 @@ body{
     list-style-type: none;
     margin: 0%;
     padding: 0;
+    width: 100%;
 }
 
 .rel{
     position: relative;
     text-align: center;
     
+}
+.rel:hover{
+    box-shadow:  3px 3px 3px white;
 }
 
 img.logo{
@@ -41,8 +45,8 @@ li.navbar_li{
 
 .navbar{
     display: flex;
+    width: 100%;
     flex-direction: row;
-    margin-left:20%;
     background-color: grey;
     padding: 5px;
 }
@@ -56,6 +60,7 @@ a.navbar_a{
 }
 
 a.navbar_a:hover{
+    box-shadow:  3px 3px 3px white;
     background-color: silver;
 }
 
