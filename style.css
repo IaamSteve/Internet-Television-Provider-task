@@ -11,14 +11,14 @@ body{
 
 .rel{
     position: relative;
+    text-align: center;
 }
 
 img.logo{
     width: 20%;
-    height: 40%;
+    height: 5%;
     background-color: grey;
     border-radius: 5%;
-    float: left;
 }
 
 @keyframes{
@@ -40,8 +40,9 @@ li.navbar_li{
 .navbar{
     display: flex;
     flex-direction: row;
-    margin-left:10%;
-    margin-right: 10%;
+    margin-left:20%;
+    background-color: grey;
+    padding: 5px;
 }
 
 a.navbar_a{
