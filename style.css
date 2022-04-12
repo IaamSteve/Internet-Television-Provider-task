@@ -31,6 +31,30 @@ img.logo{
     
 }
 
+#internet-csomagok{
+    display: grid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+    grid-template-rows: 1fr;
+    grid-gap: 2%;
+    justify-content: space-between;
+}
+
+#internet-csomagok > div{
+    text-align: center;
+}
+.csomagn{
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+.csomagn:hover{
+    background-color: silver;
+    box-shadow: 3px 3px 3px white;
+}
+
 ul.navbar_felsorolas{
     list-style-type: none;
     margin: 0;
