@@ -6,6 +6,7 @@ body{
 
 .rel{
     text-align: center;
+    
 }
 .rel:hover{
     box-shadow:  3px 3px 3px white;
@@ -26,6 +27,7 @@ img.logo{
 @keyframes{
     
 }
+
 ul.navbar_felsorolas{
     list-style-type: none;
     margin: 0;
