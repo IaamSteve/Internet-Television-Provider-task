@@ -21,9 +21,10 @@ img.logo{
     border-radius: 5%;
 }
 
-@keyframes{
+/*@keyframes{
     
-}
+}*/
+
 ul.navbar_felsorolas{
     list-style-type: none;
     margin: 0;
